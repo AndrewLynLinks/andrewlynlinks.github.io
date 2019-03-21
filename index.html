@@ -198,6 +198,8 @@ body {
   letter-spacing: 0.5px;
   font-size: 16px; 
   margin-bottom: 2.00em;
+  margin-left: 0;
+  margin-right: 50%;
 }
 
 .heading5 {  
@@ -268,7 +270,7 @@ body {
   .col-12 {width: 74.07%;visibility:  visible;display: inline;clear: none;}
   .col-13 {width: 15.15%;visibility:  visible;display: inline;clear: none;}
   .col-14 {width: 24.24%;visibility:  visible;display: inline;clear: none;}
-  .col-15 {width: 100%;visibility:  visible;display: inline;clear: none;}  
+  .col-15 {width: 100%;visibility:  visible;display: inline;clear: none;}      
   .col-16 {width: 39.39%;visibility:  visible;display: inline;clear: none;}  
   .col-17 {width: 25.92%;visibility:  visible;display: inline;clear: none;} 
   .col-23 {width: 26.67%;visibility:  visible;display: inline;clear: none;} 
@@ -276,6 +278,10 @@ body {
   .col-25 {width: 36.36%;visibility:  visible;display: inline;clear: none;}
   .col-26 {width: 86.66%;visibility:  visible;display: inline;clear: none;} 
   .col-27 {width: 13.34%;visibility:  visible;display: inline;clear: none;background: #AA6666;} 
+  .col-28 {width: 100%;visibility:  visible;display: inline;clear: none;}     /* For desktop spacing between p, removed in mobile: */ 
+  .col-29 {width: 100%;visibility:  visible;display: inline;clear: none;margin-left: 0%;margin-right: 0%;}     /* For input with question mark icon */
+  .col-30 {width: 100%;visibility:  visible;display: inline;clear: none;margin-left: 0%;margin-right: 0%;}     /* For input with select field */
+  .col-31 {width: 100%;visibility:  visible;display: inline;clear: none;margin-left: 0%;margin-right: 0%;}     /* For buttons of form*/
 }
 
 @media only screen and (max-width: 899px) {
@@ -286,6 +292,7 @@ body {
   .col-21 {width: 63.63%;visibility:  visible;display: inline;clear: none;} 
 
   .col-1 {width: 100%;visibility:  visible;display: inline;clear: none;}
+  .col-4 {width: 100%;visibility:  visible;display: inline;clear: none;}
   .col-5 {width: 100%;visibility:  visible;display: inline;clear: none;}
   .col-10 {width: 100%;visibility:  visible;display: inline;clear: none;}
   .col-11 {width: 100%;visibility:  visible;display: inline;clear: none;}
@@ -298,7 +305,46 @@ body {
   .col-22 {width: 100%;visibility:  visible;display: inline;clear: none;} 
   .col-25 {width: 100%;visibility:  visible;display: inline;clear: none;}
   .col-26 {width: 100%;visibility:  visible;display: inline;clear: none;}
-  .col-27 {width: 100%;visibility:  visible;display: inline;clear: none;background: #AA6666;}  
+  .col-27 {width: 100%;visibility:  visible;display: inline;clear: none;background: #AA6666;} 
+  .col-29 {width: 86%;visibility:  visible;display: inline; clear: none;margin-left: 7%;margin-right: 7%;}     /* For input with question mark icon */
+  .col-30 {width: 82%;visibility:  visible;display: inline; clear: none;margin-left: 9%;margin-right: 9%;}     /* For input with select field */
+  .col-31 {width: 70%;visibility:  visible;display: inline;clear: none;margin-left: 30%;margin-right: 0%;}     /* For buttons of form*/
+
+  /*Alignment changes for sections*/
+  .section3 {
+    padding: 0px;
+    text-align: center;
+    background: #efeff4;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;  
+  }
+
+  .section4 {
+    padding: 0px;
+    text-align: center;
+    background: #efeff4;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+
+  .heading4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #555555;
+    letter-spacing: 0.5px;
+    font-size: 16px; 
+    margin-bottom: 2.00em;
+    margin-left: 0;
+    margin-right: 0%;
+  }
+
+  .heading6 {    
+    margin-bottom: 0.50em; 
+    margin-top: 0.50em;
+  }
+
 }
 
 ul {
@@ -314,12 +360,6 @@ ul.centerit {
   margin:0 auto;
 }
 
-@media only screen and (max-width: 899px) {  
-  ul.centerit { 
-    display:inline-grid;
-    margin:0 auto;
-  }
-}
 
 ul.centeritalwayhorizontal { 
   display:table; 
@@ -363,15 +403,6 @@ h1 {
   margin-right: 0;
 }
 
-@media only screen and (max-width: 899px) {  
-  h1 { 
-    font-size: 19px;
-    margin-top: 1.20em;
-    margin-bottom: 1.00em;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
 
 h2 { 
   font-size: 19px;
@@ -400,6 +431,8 @@ h4 {
   margin-right: 0;  
   color:  #efeff4;
   letter-spacing: 0.3px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
@@ -407,8 +440,16 @@ p.paragraph1 {
   font-size: 16px;
   line-height: 1.6;
   margin-right: 13.34%;
+  margin-left: 0%;
+  text-align: left;
+  margin-top: 1.00em;
+  margin-bottom: 1.00em;
 }
 
+p.paragraph2 {
+  margin-top: 1.00em;
+  margin-bottom: 1.00em;
+}
 
 input {
   outline: 0;
@@ -420,6 +461,16 @@ input {
   font-size: 15px;
   color: #757575;
   font-family: 'Open Sans', sans-serif;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.inputemail {
+  width: 81%;
+}
+
+.inputsinnum {
+  width:73%;
 }
 
 select {
@@ -430,6 +481,9 @@ select {
   font-size: 15px;
   color: #757575;
   font-family: 'Open Sans', sans-serif;
+  width: 80%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 button {
@@ -444,6 +498,140 @@ button {
   cursor: pointer;
   border-radius: 6px;
   font-family: 'Open Sans', sans-serif;
+}
+
+.buttonmoreoptions {  
+  background-color:#00a221;
+  padding: 8px 30px;
+  position:relative;
+  top:0px;
+  left:-3px;
+}
+
+.imagequestionmark{  
+  position:relative;
+  top:5px;
+  left:0;
+}
+
+.horizontalline2{
+  width: 91%;
+}
+
+
+@media only screen and (max-width: 899px) {
+  /* For mobile: */
+  /*Alignment changes for sections*/
+
+  h1 { 
+    font-size: 20px;
+    margin-top: 1.75em;
+    margin-bottom: 1.00em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  h2 { 
+    font-size: 20px;
+    margin-top: 2.50em;
+    margin-bottom: 2.50em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  h3 { 
+    font-size: 16px;
+    margin-top: 2.30em;
+    margin-bottom: 3.00em;
+    margin-left: 8%;
+    margin-right: 0;
+    font-weight:normal;
+    text-align:left;
+  }
+
+  h4 { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 27px;
+    margin-top: 2.30em;
+    margin-bottom: 1.00em;
+    margin-left: 0;
+    margin-right: 0;  
+    color:  #efeff4;
+    letter-spacing: 0.3px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  p.paragraph1 {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: justify;
+    margin-top: 1em;
+    margin-bottom: 0em;
+  }
+
+  p.paragraph2 {
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
+
+  select {
+    outline: 0;
+    border-width: 0 1.0px 1.0px;
+    border-color: #bebebe;
+    padding: 5px 4px;
+    font-size: 15px;    
+    color: #757575;
+    font-family: 'Open Sans', sans-serif;
+    width:100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  input {
+    outline: 0;
+    border-width: 0 1.0px 1.0px;
+    border-color: #bebebe;
+    border-left-color: #bebebe;
+    border-style: solid;
+    padding: 5px 8px;
+    font-size: 14px;
+    color: #757575;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 0%;
+  }
+
+  .inputemail {
+    width: 85%;    
+  }
+
+  .inputsinnum {
+    width: 85%;
+  }
+
+
+  .buttonmoreoptions {
+    background-color:#00a221;
+    padding: 8px 18%;
+    position:relative;
+    top:0px;
+    left:-3px;
+  }
+
+  ul.centerit { 
+    display:inline-grid;
+    margin:0 auto;
+  }
+
+  .horizontalline2{
+    width: 91%;
+    margin-top: 30px;
+  }
+
 }
 
 arrow {
@@ -707,34 +895,34 @@ hr {
                           <h2><div class="heading3">Personal Information</div></h2>
                           <div class="col-15">
                             <div>
-                              <div class="col-13">
-                                <select style="width:80%;">
+                              <div class="col-13"><div class="col-30">
+                                <select>
                                   <option value="" disabled selected>Title*</option>
-                                </select></div>
+                                </select></div></div>
                               <div class="col-14"><input type=text placeholder="First Name*" style="width:80%;"></input></div>
                               <div class="col-14"><input type=text placeholder="Middle Initial" style="width:80%;"></input></div>
                               <div class="col-25"><input type=text placeholder="Last Name*"  style="width:80%;"></input></div>
                             </div>
-                            <div class="col-15"><div class="headingspace1">&nbsp;</div></div>
+                            <div class="col-28"><div class="headingspace1">&nbsp;</div></div>
                             <div><p class="paragraph2">
-                                <div class="col-16"><input type=text placeholder="Email address*" style="width:81%;"></input>&nbsp;<img src="questionmark2.png" alt="Get more information on the email address input field of the submission form." style="width:18px;height:17px;position:relative;top:5px;left:0;"></div>
+                                <div class="col-16"><div class="col-29"><input type=text placeholder="Email address*" class="inputemail"></input>&nbsp;<img src="questionmark3.png" alt="Get more information on the email address input field of the submission form." class="imagequestionmark"></div></div>
                                 <div class="col-14"><input type=text placeholder="Date of Birth*" style="width:80%;"></input></div>
-                                <div class="col-25"><input type=text placeholder="Social Insurance Number*" style="width:73%;"></input>&nbsp;<img src="questionmark2.png" alt="Get more information on the social insurance number input field of the submission form."  style="width:18px;height:17px;position:relative;top:5px;left:0;"></div></p>                                
+                                <div class="col-25"><div class="col-29"><input type=text placeholder="Social Insurance Number*" class="inputsinnum"></input>&nbsp;<img src="questionmark3.png" alt="Get more information on the social insurance number input field of the submission form."  class="imagequestionmark"></div></div></p>                                
                             </div>
                           </div>
                         </div>
                         <div class="col-11"><div class="headingspace2">&nbsp;</div></div>
                         <div>
                           <div class="col-12">&nbsp;</div>
-                          <div class="col-17"><button style="background-color:#c65415;">Cancel</button>&nbsp;&nbsp;<button style="background-color:#00a221;">Submit</button><br><br></div>
+                          <div class="col-17"><div class="col-31"><button style="background-color:#c65415;">Cancel</button>&nbsp;&nbsp;<button style="background-color:#00a221;">Submit</button><br><br></div></div>
 
                         </div>
                       </div>
                 </div>
                 <div class="col-4 section4">
                     <h3>You are applying for:</h3>
-                    <div class="heading4">TD<sup>&reg;</sup> Travel Medical <br>Insurance</div>
-                    <p><button alt="More Insurance Coverage Options" style="background-color:#00a221;padding: 8px 30px;position:relative;top:0px;left:-3px;">See More Coverage Options</button></p>    
+                    <div class="heading4">TD<sup>&reg;</sup> Travel Medical Insurance</div>
+                    <p><button alt="More Insurance Coverage Options" class="buttonmoreoptions">See More Coverage Options</button></p>    
                 </div>
         </div>
         <div class="row" style="background: #1a5336;">
@@ -742,7 +930,7 @@ hr {
               <h4>&nbsp;</h4><hr style="border-top: 1px solid #1a5336;"> 
             </div>
             <div class="col-1 section8">              
-              <h4>Need to talk to us directly? <div style="display:inline;color: #56be4b;font-weight:400;">Contact us&nbsp;&nbsp;</div><div style="display:inline;"><arrow class="rightarrow" style="position:relative;top:1px;left:-8px;"></arrow></div></h4>    
+              <h4>Need to talk to us directly? <div style="display:inline;color: #56be4b;font-weight:400;white-space:nowrap;">Contact us&nbsp;&nbsp;<arrow class="rightarrow" style="position:relative;top:1px;left:-8px;"></arrow></div></h4>    
               <hr width="91%">
             </div>  
             <div class="col-2 section12">
@@ -762,7 +950,7 @@ hr {
                             <li class="section6ul"><a href=""><div class="heading6">About Us</div></a></li>
                             <li class="section6ul"><a href=""><div class="heading6">Careers</div></a></li>
                         </ul>                        
-                        <hr width="91%">    
+                        <hr class="horizontalline2">    
                         <ul class="centeritalwayhorizontal">
                             <li class="section6ul2"><a href=""><div class="heading7"><img src="twitter.png" alt="Twitter" style="width:60px;height:60px;"></div></a></li>
                             <li class="section6ul2"><a href=""><div class="heading7"><img src="facebook.png" alt="Facebook" style="width:60px;height:60px;"></div></a></li>
