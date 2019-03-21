@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Biryani:800|Open+Sans:300,400,700,800" rel="stylesheet">
+<title>TD Insurance</title>
+<style>
+
+
+body {
+  margin: 0;
+  background: #efeff4;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+/* Header/Logo Title */
+.section1 {
+  padding: 0px;
+  text-align: left;
+  background: #0e3e26;
+  color: white;
+  font-size: 15px;  
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section2 {
+  padding: 0px;
+  text-align: left;
+  background: #0e3e26;
+  color: white;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section3 {
+  padding: 0px;
+  text-align: left;
+  background: #efeff4;
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.section4 {
+  padding: 0px;
+  text-align: left;
+  background: #efeff4;
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.section5 {
+  padding: 0px;
+  text-align: center;
+  background: #1a5336;
+  color: white;
+  font-size: 15px;
+}
+.section6 {
+  padding: 0px;
+  text-align: center;
+  background: #1a5336;
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+.section7 {
+  padding: 0px;
+  text-align: center;
+  background: #1a5336;
+  color: white;
+  font-size: 15px;
+}
+
+.section8 {
+  padding: 0px;
+  text-align: center;
+  background: #1a5336;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.section9 {
+  padding: 0px;
+  text-align: left;
+  background: #0e3e26;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 15px; 
+}
+
+.section10 {
+  padding: 0px;
+  text-align: center;
+  background: #1a5336;
+  color: white;
+  font-size: 15px;
+}
+
+.section11 {
+  padding: 0px;
+  text-align: center;
+  background: #1a5336;
+  color: white;
+  font-size: 15px;
+}
+
+.section12 {
+  padding: 0px;
+  text-align: left;
+  background: #1a5336;
+  color: white;
+  font-size: 15px;
+}
+
+.section13 {
+  padding: 0px;
+  text-align: left;
+  background: #1a5336;
+  color: white;
+  font-size: 15px;
+}
+
+.outerSect1 {
+  display: table;  
+  width: 100%;
+  height: 70px;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.outerSect3 {
+  display: table;  
+  width: 100%;
+  height: 100%;
+}
+
+.middleSect3 {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.outerSect7 {
+  display: table;  
+  width: 100%;
+  height:160px;
+}
+
+
+.outerSect9 {
+  display: table;  
+  width: 100%;
+  height: 40px;
+  margin-top: 8px;
+}
+
+.outerSect13 {
+  display: table;  
+  width: 100%;
+  height:60px;
+}
+
+
+.heading1 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 19px; 
+}
+
+.heading2 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 16px; 
+}
+
+.heading3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #555555;
+  letter-spacing: 0.5px;
+  font-size: 19px; 
+}
+
+.heading4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #555555;
+  letter-spacing: 0.5px;
+  font-size: 16px; 
+  margin-bottom: 2.00em;
+}
+
+.heading5 {  
+  font-weight: 400;
+  color: #56be4b;  
+}
+
+.heading6 {    
+  margin-bottom: 1.00em; 
+  margin-top: 1.00em;
+}
+
+.heading7 {    
+  margin-bottom: 1.00em; 
+  margin-top: 1.35em;
+}
+
+
+
+.headingspace1 {
+  font-size: 19px;
+  margin-top: 0.00em;
+  margin-bottom: 1.00em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.headingspace2 {
+  font-size: 19px;
+  margin-top: 2.40em;
+  margin-bottom: 0.00em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 0px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  clear: both;
+  width: 100%;
+  display: none;
+  visibility: hidden;
+}
+
+@media only screen and (min-width: 900px) {
+  /* For desktop: */  
+  .col-1 {width: 39.13%;visibility:  visible;display: inline;clear: none;}
+  .col-2 {width: 30.435%;visibility:  visible;display: inline;clear: none;}
+  .col-3 {width: 69.565%;visibility:  visible;display: inline;clear: none;}
+  .col-4 {width: 24.64%;visibility:  visible;display: inline;clear: none;}
+  .col-5 {width: 75.36%;visibility:  visible;display: inline;clear: none;}
+  .col-6 {width: 10%;visibility:  visible;display: inline;clear: none;}
+  .col-7 {width: 20%;visibility:  visible;display: inline;clear: none;}
+  .col-8 {width: 20%;visibility:  visible;display: inline;clear: none;}
+  .col-9 {width: 40%;visibility:  visible;display: inline;clear: none;}
+  .col-10 {width: 12.9%;visibility:  visible;display: inline;clear: none;}
+  .col-11 {width: 87.1%;visibility:  visible;display: inline;clear: none;}
+  .col-12 {width: 74.07%;visibility:  visible;display: inline;clear: none;}
+  .col-13 {width: 15.15%;visibility:  visible;display: inline;clear: none;}
+  .col-14 {width: 24.24%;visibility:  visible;display: inline;clear: none;}
+  .col-15 {width: 100%;visibility:  visible;display: inline;clear: none;}  
+  .col-16 {width: 39.39%;visibility:  visible;display: inline;clear: none;}  
+  .col-17 {width: 25.92%;visibility:  visible;display: inline;clear: none;} 
+  .col-23 {width: 26.67%;visibility:  visible;display: inline;clear: none;} 
+  .col-24 {width: 13.33%;visibility:  visible;display: inline;clear: none;} 
+  .col-25 {width: 36.36%;visibility:  visible;display: inline;clear: none;}
+  .col-26 {width: 86.66%;visibility:  visible;display: inline;clear: none;} 
+  .col-27 {width: 13.34%;visibility:  visible;display: inline;clear: none;background: #AA6666;} 
+}
+
+@media only screen and (max-width: 899px) {
+  /* For mobile: */
+  .col-18 {width: 100%;visibility:  visible;display: inline;clear: none;}  
+  .col-19 {width: 9.09%;visibility:  visible;display: inline;clear: none;}  
+  .col-20 {width: 18.18%;visibility:  visible;display: inline;clear: none;}  
+  .col-21 {width: 63.63%;visibility:  visible;display: inline;clear: none;} 
+
+  .col-1 {width: 100%;visibility:  visible;display: inline;clear: none;}
+  .col-5 {width: 100%;visibility:  visible;display: inline;clear: none;}
+  .col-10 {width: 100%;visibility:  visible;display: inline;clear: none;}
+  .col-11 {width: 100%;visibility:  visible;display: inline;clear: none;}
+  .col-12 {width: 100%;visibility:  visible;display: inline;clear: none;}
+  .col-13 {width: 100%;visibility:  visible;display: inline;clear: none;}
+  .col-14 {width: 100%;visibility:  visible;display: inline;clear: none;}
+  .col-15 {width: 100%;visibility:  visible;display: inline;clear: none;}  
+  .col-16 {width: 100%;visibility:  visible;display: inline;clear: none;}  
+  .col-17 {width: 100%;visibility:  visible;display: inline;clear: none;}   
+  .col-22 {width: 100%;visibility:  visible;display: inline;clear: none;} 
+  .col-25 {width: 100%;visibility:  visible;display: inline;clear: none;}
+  .col-26 {width: 100%;visibility:  visible;display: inline;clear: none;}
+  .col-27 {width: 100%;visibility:  visible;display: inline;clear: none;background: #AA6666;}  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+ul.centerit { 
+  display:table;
+  margin:0 auto;
+}
+
+@media only screen and (max-width: 899px) {  
+  ul.centerit { 
+    display:inline-grid;
+    margin:0 auto;
+  }
+}
+
+ul.centeritalwayhorizontal { 
+  display:table; 
+  margin:0 auto;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 24px;
+  text-decoration: none;
+}
+
+li.section6ul a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 12px;
+  text-decoration: none;
+}
+
+li.section6ul2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 12px;
+  text-decoration: none;
+}
+
+h1 { 
+  font-size: 19px;
+  margin-top: 4.20em;
+  margin-bottom: 1.00em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 899px) {  
+  h1 { 
+    font-size: 19px;
+    margin-top: 1.20em;
+    margin-bottom: 1.00em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+h2 { 
+  font-size: 19px;
+  margin-top: 3.40em;
+  margin-bottom: 2.00em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h3 { 
+  font-size: 16px;
+  margin-top: 2.30em;
+  margin-bottom: 3.00em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight:normal;
+}
+
+h4 { 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+  margin-top: 2.30em;
+  margin-bottom: 1.00em;
+  margin-left: 0;
+  margin-right: 0;  
+  color:  #efeff4;
+  letter-spacing: 0.3px;
+}
+
+
+p.paragraph1 {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-right: 13.34%;
+}
+
+
+input {
+  outline: 0;
+  border-width: 0 1.0px 1.0px;
+  border-color: #bebebe;
+  border-left-color: #bebebe;
+  border-style: solid;
+  padding: 5px 8px;
+  font-size: 15px;
+  color: #757575;
+  font-family: 'Open Sans', sans-serif;
+}
+
+select {
+  outline: 0;
+  border-width: 0 1.0px 1.0px;
+  border-color: #bebebe;
+  padding: 5px 4px;
+  font-size: 15px;
+  color: #757575;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+arrow {
+  border: solid #56be4b;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.rightarrow {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border-radius: 1px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #047f06;
+}
+
+
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+
+ #menuToggle
+{
+  display: block;
+  position: relative;
+  top: 6px;
+  left: 18%;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 60%;
+  height: 3px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 0px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+</style>
+</head>
+
+<body>  
+    <div class="row">
+        <div class="col-18 section9">       
+          
+            <div class="outerSect9"><div class="middle">
+            <ul>
+                <li class="col-19">
+                    
+
+                           <!--    Made by Erik Terwan    -->
+                          <!--   24th of November 2015   -->
+                          <!--        MIT License        -->
+                          <nav role="navigation">
+                              <div id="menuToggle">
+                                <!--
+                                A fake / hidden checkbox is used as click reciever,
+                                so you can use the :checked selector on it.
+                                -->
+                                <input type="checkbox" />
+                                
+                                <!--
+                                Some spans to act as a hamburger.
+                                
+                                They are acting like a real hamburger,
+                                not that McDonalds stuff.
+                                -->
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                
+                                <!--
+                                Too bad the menu has to be inside of the button
+                                but hey, it's pure CSS magic.
+                                -->
+                                <ul id="menu">
+                                  <a href="#"><li>Home</li></a>
+                                  <a href="#"><li>About</li></a>
+                                  <a href="#"><li>Info</li></a>
+                                  <a href="#"><li>Contact</li></a>
+                                  <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+                                </ul>
+                              </div>
+                            </nav>
+                               <!--
+                                END
+                                -->                         
+                    
+                </li>
+                <li class="col-20"><img src="logo.png" alt="TD logo" style="width:36px;height:31px;"></li>
+                <li class="col-21" style="margin-top:5px;">TD Insurance</li>
+                <li class="col-19"><img src="lock4.png" alt="Login" style="float:left;width:13px;height:20px;margin-top:5px;"></li>
+            </ul>
+            </div></div>
+
+            </div>
+        </div>                           
+    </div>  
+        <div class="row">
+            <div class="col-3 section1">  
+                                      
+                 <ul>
+                   <li class="col-6">&nbsp;</li>
+                   <li class="col-6"><div class="outerSect1"><div class="middle"><img src="logo.png" alt="TD logo" ></div></div></li>
+                   <li class="col-7"><div class="outerSect1"><div class="middle"><div class="heading1">
+                      TD Insurance</span></div></div></li>
+                   <li><div class="outerSect1"><div class="middle">
+                     <ul>
+                       <li><a href=""><div class="heading2">Products</div></a></li>
+                       <li><a href=""><div class="heading2">Claims</div></a></li>
+                       <li><a href=""><div class="heading2">Contact Us</div></a></li>                       
+                      </ul></div></div>
+                   </li>
+                 </ul>
+                    
+            </div>
+            <div class="col-2 section2">
+                <div class="outerSect1"><div class="middle">
+                <ul>
+                    <li class="col-23">Ontario&nbsp;&nbsp;<img src="downarrow2.png" alt="Province" style="width:16px;height:14px;"></li>
+                    <li class="col-8">EN&nbsp;&nbsp;<img src="downarrow2.png" alt="Province" style="width:16px;height:14px;"></li>
+                    <li class="col-24"><img src="search2.png" alt="Search" style="float:left;width:20px;height:20px;"></li>
+                    <li class="col-9"><img src="lock4.png" alt="Login" style="float:left;width:13px;height:20px;">&nbsp;&nbsp;Login</li>
+                </ul>
+                </div></div>
+            </div>
+        </div>   
+        <div class="row">
+                <div class="col-5 section3">
+                      <div class="col-10">
+                        &nbsp;</div>
+                      <div class="col-11">
+                        <div>
+                          <h1><div class="heading3">Tell Us About Yourself</div></h1>                          
+                            <p class="paragraph1">Thanks for choosing TD Insurance! In order to safely set up your new accounts and services, please tell us about yourself.                            
+                            </p>                                                    
+                          <h2><div class="heading3">Personal Information</div></h2>
+                          <div class="col-15">
+                            <div>
+                              <div class="col-13">
+                                <select style="width:80%;">
+                                  <option value="" disabled selected>Title*</option>
+                                </select></div>
+                              <div class="col-14"><input type=text placeholder="First Name*" style="width:80%;"></input></div>
+                              <div class="col-14"><input type=text placeholder="Middle Initial" style="width:80%;"></input></div>
+                              <div class="col-25"><input type=text placeholder="Last Name*"  style="width:80%;"></input></div>
+                            </div>
+                            <div class="col-15"><div class="headingspace1">&nbsp;</div></div>
+                            <div><p class="paragraph2">
+                                <div class="col-16"><input type=text placeholder="Email address*" style="width:81%;"></input>&nbsp;<img src="questionmark2.png" alt="Get more information on the email address input field of the submission form." style="width:18px;height:17px;position:relative;top:5px;left:0;"></div>
+                                <div class="col-14"><input type=text placeholder="Date of Birth*" style="width:80%;"></input></div>
+                                <div class="col-25"><input type=text placeholder="Social Insurance Number*" style="width:73%;"></input>&nbsp;<img src="questionmark2.png" alt="Get more information on the social insurance number input field of the submission form."  style="width:18px;height:17px;position:relative;top:5px;left:0;"></div></p>                                
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-11"><div class="headingspace2">&nbsp;</div></div>
+                        <div>
+                          <div class="col-12">&nbsp;</div>
+                          <div class="col-17"><button style="background-color:#c65415;">Cancel</button>&nbsp;&nbsp;<button style="background-color:#00a221;">Submit</button><br><br></div>
+
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 section4">
+                    <h3>You are applying for:</h3>
+                    <div class="heading4">TD<sup>&reg;</sup> Travel Medical <br>Insurance</div>
+                    <p><button alt="More Insurance Coverage Options" style="background-color:#00a221;padding: 8px 30px;position:relative;top:0px;left:-3px;">See More Coverage Options</button></p>    
+                </div>
+        </div>
+        <div class="row" style="background: #1a5336;">
+            <div class="col-2 section11">
+              <h4>&nbsp;</h4><hr style="border-top: 1px solid #1a5336;"> 
+            </div>
+            <div class="col-1 section8">              
+              <h4>Need to talk to us directly? <div style="display:inline;color: #56be4b;font-weight:400;">Contact us&nbsp;&nbsp;</div><div style="display:inline;"><arrow class="rightarrow" style="position:relative;top:1px;left:-8px;"></arrow></div></h4>    
+              <hr width="91%">
+            </div>  
+            <div class="col-2 section12">
+              <h4>&nbsp;</h4><hr style="border-top: 1px solid #1a5336;"> 
+            </div>
+        </div>  
+        <div class="row" style="background: #1a5336;">
+                <div class="col-2 section5">                
+                        &nbsp;
+                        <img src="CHAIR_large.png" alt="Image of a chair" width="263px" length="160px" align="right" valign="bottom">
+                </div>
+                <div class="col-1 section6">                        
+                        <ul class="centerit">
+                            <li class="section6ul"><a href=""><div class="heading6">Privacy and Security</div></a></li>
+                            <li class="section6ul"><a href=""><div class="heading6">Legal</div></a></li>
+                            <li class="section6ul"><a href=""><div class="heading6">Accessibility</div></a></li>
+                            <li class="section6ul"><a href=""><div class="heading6">About Us</div></a></li>
+                            <li class="section6ul"><a href=""><div class="heading6">Careers</div></a></li>
+                        </ul>                        
+                        <hr width="91%">    
+                        <ul class="centeritalwayhorizontal">
+                            <li class="section6ul2"><a href=""><div class="heading7"><img src="twitter.png" alt="Twitter" style="width:60px;height:60px;"></div></a></li>
+                            <li class="section6ul2"><a href=""><div class="heading7"><img src="facebook.png" alt="Facebook" style="width:60px;height:60px;"></div></a></li>
+                            <li class="section6ul2"><a href=""><div class="heading7"><img src="youtube.png" alt="YouTube" style="width:60px;height:60px;"></div></a></li>
+                            <li class="section6ul2"><a href=""><div class="heading7"><img src="wifi.png" alt="Wifi" style="width:60px;height:60px;"></div></a></li>                            
+                        </ul>       
+                </div>
+                <div class="col-2 section7">
+                  <div class="outerSect7"><div class="middle">&nbsp;</div></div>  
+                </div>
+                <div class="col-22 section10">                
+                    <img src="CHAIR_small.png" alt="Image of a chair" width="263px" length="160px" align="center" valign="bottom">
+                </div>               
+        </div> 
+        <div class="col-15 section13" style="background: #1a5336;">
+          <div class="outerSect13"><div class="middle">&nbsp;</div></div>  
+        </div>
+</body>
+
+</html>
