@@ -1,0 +1,7 @@
+README
+
+This APP is a based on a mobile design for a width of 375px.
+
+Objectives:
+-Pull image and hold movie ID 
+-Pull movie details using movie ID and display information (original title, movie poster image thumbnail, a plot synopsis, user rating, release date.)
