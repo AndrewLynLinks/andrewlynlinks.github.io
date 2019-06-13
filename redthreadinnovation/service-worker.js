@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/redthreadinnovation/precache-manifest.10a6d667402eebca1e7726e60d0ba651.js"
+  "/redthreadinnovation/precache-manifest.1b98c1823aea8177d9cd81eec00d7a57.js"
 );
 
 self.addEventListener('message', (event) => {
