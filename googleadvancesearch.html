@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+
+        <style>
+            body {
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 13px;
+                
+            }
+
+           .searcharea {
+                padding: 0px;
+                text-align: left;
+                display: inline-block;
+           }
+
+           .rightsidelinks {
+                padding: 0px;
+                text-align: right;
+           }
+
+           .subheading {
+                font-size: 17px;
+           }
+
+           
+
+           input {
+               border-color: #f5f5f5;
+               border-style: solid;
+               
+           }
+
+           input[type="text"] {
+                height:  25px;
+            }
+
+           input[type="submit"] {
+                float: right;
+                border-radius:2px;
+                color: #fff;
+                font-size: 11px;
+                font-weight: bold;
+                background-color: #efefef;
+                background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+                padding-right: 2%;
+                padding-left: 2%;
+                height:  34px;
+                border: 1px solid #3079ed;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="rightsidelinks">
+            <a href="index.html">go back to Google Search</a>
+        </div>
+
+        <div class="searcharea">
+            <div class="subheading">Find pages with...</div><br>
+            <form action="https://google.com/search">
+                all these words: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="as_q" style="width: 387px;"><br><br>
+                this exact word or phrase: &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="as_epq" style="width: 387px;"><br><br>
+                any of these words: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="as_oq" style="width: 387px;"><br><br>
+                none of these words: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="as_eq" style="width: 387px;"><br><br>
+                <input type="submit" value="Advance Search">
+            </form>
+        </div>
+    </body>
+</html>
+
+
+<!--
+
+
+<form action="https://google.com/search">
+    <input type="text" name="q">
+    <input type="submit" value="Google Search">
+</form>
+
+-->
+
